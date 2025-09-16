@@ -156,12 +156,6 @@ Check status: `sudo systemctl status minecraft`.
   sudo apt install tmux -y
   ```
 
-### 🎮 Minecraft-Specific Tools  
-- **[PaperMC](https://papermc.io/)**: Optimized Minecraft server software for better performance.  
-- **[SpigotMC](https://www.spigotmc.org/)**: For plugins and server customization.  
-- **[GeyserMC](https://geysermc.org/)**: Allows Bedrock edition players to join Java servers.  
-- **[LuckPerms](https://luckperms.net/)**: Manages permissions and roles on the server.
-
 ### 🔒 Security and Monitoring  
 - **ufw**: Simple firewall for Ubuntu/Debian.  
   ```bash
@@ -172,7 +166,37 @@ Check status: `sudo systemctl status minecraft`.
   sudo apt install fail2ban -y
   ```
 - **netdata**: Real-time VPS resource monitoring in the browser.  
-  - Website: [Netdata](https://www.netdata.cloud/)  
+  - Website: [Netdata](https://www.netdata.cloud/)
+
+---
+
+### 🎮 Websites for Comprehensive Plugin Lists
+These are the go-to sites for finding Minecraft plugins, with filters for new releases, categories, and versions:
+
+- [Modrinth](modrinth.com/plugins):
+A modern hub for Paper/Spigot/Fabric plugins. Lists thousands of plugins with filters for Minecraft version or category (e.g., Admin Tools, Fun). Great for new 2025 plugins like Simple Voice Chat or LuckPerms.
+Why use it? Clean interface, trusted downloads, and active updates.
+- [SpigotMC](spigotmc.org/resources):
+The largest repository for Bukkit/Spigot plugins, with over 40,000 resources. Includes ratings, reviews, and new plugins like NoCheatPlus or WorldEdit.
+Why use it? Massive selection, active community, and reliable for most server types.
+- [Hangar (PaperMC)](hangar.papermc.io):
+Focused on Paper plugins, which are optimized for performance. Lists plugins like GeyserMC (Bedrock-to-Java) or CoreProtect (anti-grief).
+Why use it? Perfect for Paper servers, with a focus on modern, high-quality plugins.
+- [BuiltByBit (McMarket)](builtbybit.com/resources/categories/minecraft-plugins):
+Offers both free and premium plugins. Features new 2025 plugins like AntiXray or MythicMobs.
+Why use it? Good for advanced or unique plugins, with a mix of free and paid options.
+
+---
+
+### 💻 GitHub Users/Repositories for Plugin Lists
+GitHub is more for source code, but some repos curate lists of plugins or host plugin projects. Here are the best:
+
+- [bs-community/awesome-minecraft](github.com/bs-community/awesome-minecraft):
+A curated list of Minecraft resources, including a plugin section. Links to over 100 top plugins, like ViaVersion (version compatibility).
+Why use it? Well-organized, with links to plugin downloads.
+- [maximjsx/awesome-plugins](github.com/maximjsx/awesome-plugins):
+A collection of modern plugins, including 2025 releases like PacketEvents (packet management).
+Why use it? Focuses on high-quality, performance-oriented plugins.
 
 ---
 
