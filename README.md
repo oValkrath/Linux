@@ -3,7 +3,7 @@
 
 ---
 
-## 🔑 1. Connect to Your VPS  
+## 🔑 1 - Connect to Your VPS  
 
 To connect to your Linux VPS (Ubuntu/Debian) via SSH:  
 ```bash
@@ -13,7 +13,7 @@ Replace `username` with your VPS user and `your_vps_ip` with the server's IP add
 
 ---
 
-## ⚙️ 2. Basic Linux Commands  
+## ⚙️ 2 - Basic Linux Commands  
 
 | 🖥️ Command | 📘 Description |
 |------------|---------------------|
@@ -27,7 +27,7 @@ Replace `username` with your VPS user and `your_vps_ip` with the server's IP add
 
 ---
 
-## ☕ 3. Install Java  
+## ☕ 3 - Install Java  
 
 Minecraft requires Java. Recommended version: **Java 17**  
 ```bash
@@ -39,7 +39,7 @@ This updates the system and installs Java 17. Verify the installation with `java
 
 ---
 
-## 👤 4. Create a Dedicated Minecraft User  
+## 👤 4 - Create a Dedicated Minecraft User  
 
 ```bash
 sudo adduser mcserver
@@ -49,7 +49,7 @@ This creates a user `mcserver` for running the Minecraft server and switches to 
 
 ---
 
-## 🎮 5. Download and Run the Minecraft Server  
+## 🎮 5 - Download and Run the Minecraft Server  
 
 ```bash
 mkdir ~/minecraft && cd ~/minecraft
@@ -66,7 +66,7 @@ java -Xmx2G -Xms1G -jar server.jar nogui
 
 ---
 
-## 🔓 6. Open the Minecraft Port  
+## 🔓 6 - Open the Minecraft Port  
 
 ```bash
 sudo ufw allow 25565
@@ -76,7 +76,7 @@ This opens port 25565 (Minecraft’s default port) and reloads the firewall.
 
 ---
 
-## ♻️ 7. Keep the Server Running  
+## ♻️ 7 - Keep the Server Running  
 
 ### Method 1 (screen / Simple)  
 Use `screen` to run the server in a detachable session:  
